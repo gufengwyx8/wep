@@ -1,0 +1,22 @@
+create database wep;
+use wep;
+
+CREATE TABLE iv(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	value VARCHAR(255)
+);
+
+CREATE TABLE cipher(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	value VARCHAR(255)
+);
+
+CREATE TABLE `key`(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	value VARCHAR(255)
+);
+
+CREATE TABLE result(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	value TEXT
+);
